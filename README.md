@@ -1,7 +1,77 @@
-Date | Episode | Topics Covered | Notes/Thoughts
-2025-04-28 | Episode 01 | Introduction to Node.js, Why Node.js, What is Node.js? | Learned about event-driven architecture, Node.js built on V8 engine, non-blocking behavior, single-threaded model.
-2025-04-28 | Episode 02 | Behind the Scenes: Node.js Architecture | Understood how Node.js handles async operations with Event Loop, Thread Pool, and Event Queue.
-2025-04-28 | Episode 03 | Installation & Setup, First Node.js Program | Installed Node.js, wrote the first simple script using console.log, explored node filename.js command.
-2025-04-28 | Episode 04 | Node.js behind the scenes: Call Stack, Event Loop, Task Queue | Deep dive into how Node.js manages async code, Call Stack vs Event Loop, Browser vs Node.js differences.
-2025-04-28 | Episode 05 | Blocking vs Non-Blocking Code, Event-Driven Architecture | Understood the difference between synchronous and asynchronous execution, advantages of non-blocking IO.
-2025-04-28 | Episode 06 | How Node.js works internally: libuv, Thread Pool, Event Loop Phases | Explored libuv library, concept of Thread Pool for async tasks, phases of Event Loop (Timers, IO Callbacks, Poll, etc.).
+## Namaste Node.js - Learning Journey 🚀
+
+---
+
+### Episode 1 - Introduction to Node.js
+
+What is Node.js?
+
+Node.js is built on Chrome's V8 JavaScript engine.
+
+Node.js is single-threaded, event-driven, and non-blocking.
+
+It is used for building fast, scalable network applications.
+
+Node.js executes JavaScript code outside the browser.
+
+---
+
+### Episode 2 - How Node.js Works Behind the Scenes
+
+Node.js architecture explained: Event Loop, Event Queue, Thread Pool.
+
+libuv library handles asynchronous tasks.
+
+Node.js manages thousands of operations without creating thousands of threads.
+
+Importance of non-blocking behavior for scalability.
+
+---
+
+### Episode 3 - Installing Node.js and Writing First Program
+
+Installed Node.js and npm.
+
+Wrote and ran the first Node.js program using the command `node filename.js`.
+
+Node.js allows running JavaScript directly in the system environment, outside the browser.
+
+---
+
+### Episode 4 - Call Stack, Event Loop, Task Queue
+
+What is a Call Stack and how JavaScript manages function calls.
+
+Introduction to Event Loop and how it works with async tasks.
+
+Task Queue (also known as Callback Queue) and its role.
+
+Difference between Browser Event Loop and Node.js Event Loop.
+
+---
+
+### Episode 5 - Blocking vs Non-Blocking Code
+
+Blocking code waits and stops the execution of the next code.
+
+Non-blocking code uses callbacks and does not block the flow.
+
+Node.js is designed to favor non-blocking (asynchronous) operations.
+
+Benefits of using asynchronous programming in high-performance servers.
+
+---
+
+### Episode 6 - How Node.js Handles Async Operations Internally
+
+Detailed working of libuv and its role.
+
+Thread Pool usage for heavy asynchronous operations (e.g., file system operations).
+
+Different phases of the Event Loop (Timers, Pending Callbacks, Poll, Check, Close Callbacks).
+
+Understanding how Node.js achieves concurrency using a single thread with background threads.
+
+---
+
+# 🎯 Keep Learning and Growing!
